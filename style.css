@@ -23,12 +23,6 @@ body {
     color: var(--clr-primary-dark-desaturated-blue);
 
     background-color: var(--clr-primary-dark-cyan);
-    /* outline: 2px solid black;
-    background-image: url(./images/bg-pattern-top.svg),
-        url(./images/bg-pattern-bottom.svg);
-    background-repeat: no-repeat, no-repeat;
-    background-position: top 200% left -100%, bottom 200% right -100%;
-    background-size: auto, ; */
 
     display: flex;
     justify-content: center;
@@ -37,27 +31,8 @@ body {
     width: 100%;
     height: 100vh;
 
-
 }
 
-/* main {
-    height: 100%
-} */
-
-.bg-pattern-top {
-    position: absolute;
-    top: -135%;
-    right: 31%;
-    z-index: 9;
-
-}
-
-.bg-pattern-bottom {
-    position: absolute;
-    bottom: -135%;
-    left: 31%;
-    z-index: 9;
-}
 
 
 /* utlities */
@@ -71,9 +46,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-/* profile style */
 .profile {
 
 
@@ -81,26 +56,23 @@ body {
     background-image: url(./images/bg-pattern-card.svg);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 100% 40%;
+    background-size: 100% 35%;
     border-radius: 1rem;
 
     padding: 0;
     width: 20rem;
-    height: 23rem;
+    height: 24rem;
 
     position: relative;
     z-index: 10;
 
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
-
-/* .profile__bg-pattern img {
-    border-radius: 2rem 2rem 0 0;
-} */
 
 .profile__img {
     display: grid;
     justify-content: center;
-    padding-top: 30%;
+    padding-top: 25%;
 }
 
 .img {
@@ -125,9 +97,10 @@ body {
 .profile__city {
     color: var(--clr-primary-dark-grayish-blue);
     font-weight: var(--fw-regular);
+    font-size: 14px;
     padding-top: 0;
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 24px;
 }
 
 .divider {
@@ -140,14 +113,36 @@ body {
 .profile__social-flex-group h2 {
     font-size: 18px;
     font-weight: var(--fw-bold);
+    padding-bottom: 0;
+    margin-top: 28px;
+    margin-bottom: 8px;
 }
 
 .profile__social-flex-group p {
     font-size: 12px;
     font-weight: var(--fw-regular);
     color: var(--clr-neutral-dark-gray);
+    padding-top: 0;
+    margin: 0px;
+    padding-bottom: 0;
 }
 
 .profile__likes {
     padding: 0 10%;
+}
+
+
+.bg-pattern-top {
+    position: absolute;
+    top: -135%;
+    right: 31%;
+    z-index: 9;
+
+}
+
+.bg-pattern-bottom {
+    position: absolute;
+    bottom: -135%;
+    left: 31%;
+    z-index: 9;
 }
