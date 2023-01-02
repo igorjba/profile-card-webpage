@@ -16,7 +16,7 @@
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <!-- <style>
     .attribution {
       font-size: 11px;
       text-align: center;
@@ -25,23 +25,51 @@
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
-  </style>
+  </style> -->
 </head>
 
 <body>
-  Victor Crest
-  26
-  London
+  <main>
+    <!-- <picture>
+      <img src="images/bg-pattern-top.svg" alt="pattern-top">
+    </picture>
+    <picture>
+      <img src="images/bg-pattern-bottom.svg" alt="pattern-bottom">
+    </picture> -->
+    <article class="profile">
+      <div class="profile__bg-pattern">
+        <img src="images/bg-pattern-card.svg" alt="pattern-card">
 
-  80K
-  Followers
+      </div>
 
-  803K
-  Likes
+      <div class="profile__img">
+        <img src="images/image-victor.jpg" alt="victor image">
+      </div>
 
-  1.4K
-  Photos
+      <h1 class="profile__name-age">Victor Crest <span class="profile__age">26</span> </h1>
 
+      <p class="profile__city">London</p>
+
+      <div class="profile__social-flex-group">
+
+        <div class="profile__followers">
+          80K
+          Followers
+        </div>
+
+        <div class="profile__likes">
+          803K
+          Likes
+        </div>
+
+        <div class="profile__photos">
+          1.4K
+          Photos
+        </div>
+
+      </div>
+    </article>
+  </main>
 </body>
 
 </html>
